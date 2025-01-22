@@ -1,0 +1,12 @@
+[2024-12-02T08:23:21.124+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main_data_pipeline.data_cleanning manual__2024-12-02T08:23:19.455522+00:00 [queued]>
+[2024-12-02T08:23:21.135+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main_data_pipeline.data_cleanning manual__2024-12-02T08:23:19.455522+00:00 [queued]>
+[2024-12-02T08:23:21.136+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-12-02T08:23:21.152+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): data_cleanning> on 2024-12-02 08:23:19.455522+00:00
+[2024-12-02T08:23:21.160+0000] {standard_task_runner.py:60} INFO - Started process 284 to run task
+[2024-12-02T08:23:21.163+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'main_data_pipeline', 'data_cleanning', 'manual__2024-12-02T08:23:19.455522+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/main_data_pipeline.py', '--cfg-path', '/tmp/tmptuij3pqk']
+[2024-12-02T08:23:21.166+0000] {standard_task_runner.py:88} INFO - Job 28: Subtask data_cleanning
+[2024-12-02T08:23:21.218+0000] {task_command.py:423} INFO - Running <TaskInstance: main_data_pipeline.data_cleanning manual__2024-12-02T08:23:19.455522+00:00 [running]> on host b1ba4dce8a9e
+[2024-12-02T08:23:21.733+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main_data_pipeline' AIRFLOW_CTX_TASK_ID='data_cleanning' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T08:23:19.455522+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-02T08:23:19.455522+00:00'
+[2024-12-02T08:23:21.734+0000] {data_cleanning.py:5} INFO - Iniciando limpeza de dados.
+[2024-12-02T08:23:51.989+0000] {local_task_job_runner.py:234} INFO - Task exited with return code -9
+[2024-12-02T08:23:52.289+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

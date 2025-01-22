@@ -1,0 +1,27 @@
+[2024-12-02T08:41:46.703+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main_data_pipeline.data_report manual__2024-12-02T08:41:40.592153+00:00 [queued]>
+[2024-12-02T08:41:46.714+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main_data_pipeline.data_report manual__2024-12-02T08:41:40.592153+00:00 [queued]>
+[2024-12-02T08:41:46.714+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-12-02T08:41:46.730+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): data_report> on 2024-12-02 08:41:40.592153+00:00
+[2024-12-02T08:41:46.738+0000] {standard_task_runner.py:60} INFO - Started process 590 to run task
+[2024-12-02T08:41:46.741+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'main_data_pipeline', 'data_report', 'manual__2024-12-02T08:41:40.592153+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/main_data_pipeline.py', '--cfg-path', '/tmp/tmppjonj6kw']
+[2024-12-02T08:41:46.744+0000] {standard_task_runner.py:88} INFO - Job 36: Subtask data_report
+[2024-12-02T08:41:46.796+0000] {task_command.py:423} INFO - Running <TaskInstance: main_data_pipeline.data_report manual__2024-12-02T08:41:40.592153+00:00 [running]> on host b1ba4dce8a9e
+[2024-12-02T08:41:47.069+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main_data_pipeline' AIRFLOW_CTX_TASK_ID='data_report' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T08:41:40.592153+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-02T08:41:40.592153+00:00'
+[2024-12-02T08:41:47.071+0000] {data_report.py:5} INFO - Gerando relatório final.
+[2024-12-02T08:41:47.082+0000] {logging_mixin.py:188} INFO - Tabela 1: Média de 'risk_score' por 'location_region'
+[2024-12-02T08:41:47.088+0000] {logging_mixin.py:188} INFO -   location_region  risk_score
+0          Europe   56.125000
+1   North America   46.972222
+2   South America   43.903977
+3          Africa   38.921250
+4            Asia   38.536458
+[2024-12-02T08:41:47.089+0000] {logging_mixin.py:188} INFO - 
+Tabela 2: Top 3 transações 'sale'
+[2024-12-02T08:41:47.093+0000] {logging_mixin.py:188} INFO -                             receiving_address   amount   timestamp
+0  0x40ae276ca968c3d5461178fad0ff52f00ef148d8  71368.0  1661204770
+1  0xa47a97907b93d454b7ec8c9a6b3d02ff838c052d  70500.0  1674155838
+2  0x50faf31a0864d01e098e833d31e67b0b8154eb05  70406.0  1699270279
+[2024-12-02T08:41:47.093+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-12-02T08:41:47.102+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=main_data_pipeline, task_id=data_report, execution_date=20241202T084140, start_date=20241202T084146, end_date=20241202T084147
+[2024-12-02T08:41:47.155+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-12-02T08:41:47.173+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,368 @@
+[2024-12-02T08:09:24.992+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:09:24.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:09:24.996+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:09:24.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:09:26.223+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:09:26.220+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:09:26.225+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:09:26.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 1.250 seconds
+[2024-12-02T08:09:56.562+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:09:56.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:09:56.565+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:09:56.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:09:56.954+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:09:56.951+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:09:56.955+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:09:56.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.409 seconds
+[2024-12-02T08:10:27.379+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:10:27.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:10:27.383+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:10:27.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:10:27.803+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:10:27.799+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:10:27.804+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:10:27.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.444 seconds
+[2024-12-02T08:10:58.634+0000] {processor.py:161} INFO - Started process (PID=88) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:10:58.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:10:58.637+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:10:58.637+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:10:59.164+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:10:59.160+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:10:59.165+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:10:59.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.552 seconds
+[2024-12-02T08:11:30.104+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:11:30.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:11:30.109+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:11:30.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:11:30.574+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:11:30.570+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:11:30.575+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:11:30.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.493 seconds
+[2024-12-02T08:12:00.954+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:12:00.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:12:00.957+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:12:00.957+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:12:01.605+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:12:01.600+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:12:01.607+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:12:01.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.677 seconds
+[2024-12-02T08:12:32.488+0000] {processor.py:161} INFO - Started process (PID=133) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:12:32.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:12:32.491+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:12:32.491+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:12:32.951+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:12:32.945+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:12:32.953+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:12:32.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.484 seconds
+[2024-12-02T08:13:03.764+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:13:03.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:13:03.767+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:13:03.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:13:04.116+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:13:04.113+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:13:04.117+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:13:04.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.372 seconds
+[2024-12-02T08:13:34.843+0000] {processor.py:161} INFO - Started process (PID=163) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:13:34.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:13:34.846+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:13:34.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:13:35.244+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:13:35.240+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:13:35.245+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:13:35.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.422 seconds
+[2024-12-02T08:14:05.994+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:14:05.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:14:05.998+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:14:05.998+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:14:06.453+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:14:06.450+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:14:06.455+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:14:06.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.484 seconds
+[2024-12-02T08:14:37.312+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:14:37.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:14:37.315+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:14:37.315+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:14:37.873+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:14:37.870+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:14:37.875+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:14:37.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.584 seconds
+[2024-12-02T08:15:08.152+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:15:08.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:15:08.157+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:15:08.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:15:08.693+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:15:08.688+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:15:08.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:15:08.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.569 seconds
+[2024-12-02T08:15:39.172+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:15:39.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:15:39.181+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:15:39.180+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:15:41.976+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:15:41.970+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:15:41.978+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:15:42.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 2.886 seconds
+[2024-12-02T08:16:12.816+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:16:12.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:16:12.822+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:16:12.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:16:13.305+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:16:13.300+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:16:13.306+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:16:13.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.515 seconds
+[2024-12-02T08:16:44.049+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:16:44.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:16:44.052+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:16:44.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:16:44.444+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:16:44.439+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:16:44.446+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:16:44.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.415 seconds
+[2024-12-02T08:17:15.277+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:17:15.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:17:15.280+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:17:15.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:17:15.652+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:17:15.648+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:17:15.654+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:17:15.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.395 seconds
+[2024-12-02T08:17:46.022+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:17:46.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:17:46.026+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:17:46.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:17:46.471+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:17:46.467+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:17:46.472+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:17:46.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.472 seconds
+[2024-12-02T08:18:16.602+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:18:16.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:18:16.605+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:18:16.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:18:17.025+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:18:17.022+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:18:17.026+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:18:17.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.440 seconds
+[2024-12-02T08:18:47.889+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:18:47.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:18:47.893+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:18:47.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:18:48.301+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:18:48.298+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:18:48.303+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:18:48.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.434 seconds
+[2024-12-02T08:19:18.656+0000] {processor.py:161} INFO - Started process (PID=338) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:19:18.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:19:18.662+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:19:18.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:19:19.162+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:19:19.158+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:19:19.163+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:19:19.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.532 seconds
+[2024-12-02T08:19:49.370+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:19:49.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:19:49.373+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:19:49.373+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:19:49.761+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:19:49.756+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:19:49.762+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:19:49.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.409 seconds
+[2024-12-02T08:20:19.999+0000] {processor.py:161} INFO - Started process (PID=370) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:20:20.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:20:20.002+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:20:20.002+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:20:20.408+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:20:20.403+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:20:20.411+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:20:20.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.439 seconds
+[2024-12-02T08:20:50.901+0000] {processor.py:161} INFO - Started process (PID=385) to work on /opt/airflow/dags/data_quality.py
+[2024-12-02T08:20:50.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2024-12-02T08:20:50.904+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:20:50.904+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:20:51.351+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:20:51.343+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+  File "/opt/airflow/dags/data_quality.py", line 5, in <module>
+    from data_quality import calculate_metrics
+ImportError: cannot import name 'calculate_metrics' from partially initialized module 'data_quality' (most likely due to a circular import) (/opt/airflow/dags/data_quality.py)
+[2024-12-02T08:20:51.353+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2024-12-02T08:20:51.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_quality.py took 0.479 seconds

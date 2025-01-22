@@ -1,0 +1,25 @@
+# Dependências para manipulação e análise de dados
+pandas==2.1.1
+numpy==1.26.0
+
+# Dependências para orquestração
+apache-airflow==2.7.2
+apache-airflow-providers-http==4.0.0
+
+# Dependências para qualidade de dados
+great-expectations==0.16.17
+
+# Dependências para testes automatizados
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# Dependências para linting e formatação
+flake8==6.1.0
+black==23.9.1
+
+# Dependências para integração com o SonarQube
+sonar-scanner-cli==4.8.0.2856
+
+# Dependências para conexão com o banco de dados (opcional para evoluções)
+sqlalchemy==2.0.20
+psycopg2-binary==2.9.7

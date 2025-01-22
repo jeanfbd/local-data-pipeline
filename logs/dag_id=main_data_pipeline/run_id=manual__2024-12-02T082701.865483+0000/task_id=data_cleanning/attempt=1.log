@@ -1,0 +1,15 @@
+[2024-12-02T08:27:02.965+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main_data_pipeline.data_cleanning manual__2024-12-02T08:27:01.865483+00:00 [queued]>
+[2024-12-02T08:27:02.975+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main_data_pipeline.data_cleanning manual__2024-12-02T08:27:01.865483+00:00 [queued]>
+[2024-12-02T08:27:02.975+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-12-02T08:27:02.988+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): data_cleanning> on 2024-12-02 08:27:01.865483+00:00
+[2024-12-02T08:27:02.996+0000] {standard_task_runner.py:60} INFO - Started process 343 to run task
+[2024-12-02T08:27:02.998+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'main_data_pipeline', 'data_cleanning', 'manual__2024-12-02T08:27:01.865483+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/main_data_pipeline.py', '--cfg-path', '/tmp/tmpakttvtp1']
+[2024-12-02T08:27:03.001+0000] {standard_task_runner.py:88} INFO - Job 29: Subtask data_cleanning
+[2024-12-02T08:27:03.050+0000] {task_command.py:423} INFO - Running <TaskInstance: main_data_pipeline.data_cleanning manual__2024-12-02T08:27:01.865483+00:00 [running]> on host b1ba4dce8a9e
+[2024-12-02T08:27:03.306+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main_data_pipeline' AIRFLOW_CTX_TASK_ID='data_cleanning' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T08:27:01.865483+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-02T08:27:01.865483+00:00'
+[2024-12-02T08:27:03.308+0000] {data_cleanning.py:5} INFO - Iniciando limpeza de dados.
+[2024-12-02T08:27:03.360+0000] {data_cleanning.py:16} INFO - Limpeza concluída. Registros restantes: 96
+[2024-12-02T08:27:03.361+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-12-02T08:27:03.373+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=main_data_pipeline, task_id=data_cleanning, execution_date=20241202T082701, start_date=20241202T082702, end_date=20241202T082703
+[2024-12-02T08:27:03.412+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-12-02T08:27:03.442+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

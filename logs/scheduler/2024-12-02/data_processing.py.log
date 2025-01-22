@@ -1,0 +1,368 @@
+[2024-12-02T08:09:25.308+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:09:25.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:09:25.311+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:09:25.311+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:09:26.166+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:09:26.162+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:09:26.168+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:09:26.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.879 seconds
+[2024-12-02T08:09:56.569+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:09:56.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:09:56.572+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:09:56.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:09:56.949+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:09:56.946+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:09:56.951+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:09:56.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.399 seconds
+[2024-12-02T08:10:27.389+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:10:27.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:10:27.391+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:10:27.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:10:27.812+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:10:27.809+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:10:27.814+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:10:27.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.443 seconds
+[2024-12-02T08:10:58.645+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:10:58.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:10:58.648+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:10:58.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:10:59.174+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:10:59.171+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:10:59.176+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:10:59.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.551 seconds
+[2024-12-02T08:11:30.113+0000] {processor.py:161} INFO - Started process (PID=104) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:11:30.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:11:30.118+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:11:30.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:11:30.574+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:11:30.571+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:11:30.575+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:11:30.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.483 seconds
+[2024-12-02T08:12:00.962+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:12:00.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:12:00.966+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:12:00.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:12:01.731+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:12:01.725+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:12:01.733+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:12:01.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.793 seconds
+[2024-12-02T08:12:32.496+0000] {processor.py:161} INFO - Started process (PID=134) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:12:32.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:12:32.499+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:12:32.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:12:32.935+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:12:32.931+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:12:32.936+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:12:32.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.461 seconds
+[2024-12-02T08:13:03.772+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:13:03.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:13:03.775+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:13:03.775+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:13:04.119+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:13:04.116+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:13:04.121+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:13:04.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.365 seconds
+[2024-12-02T08:13:34.848+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:13:34.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:13:34.852+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:13:34.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:13:35.253+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:13:35.250+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:13:35.255+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:13:35.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.425 seconds
+[2024-12-02T08:14:06.003+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:14:06.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:14:06.006+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:14:06.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:14:06.437+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:14:06.433+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:14:06.439+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:14:06.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.457 seconds
+[2024-12-02T08:14:37.320+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:14:37.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:14:37.323+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:14:37.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:14:37.873+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:14:37.868+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:14:37.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:14:37.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.576 seconds
+[2024-12-02T08:15:08.164+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:15:08.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:15:08.168+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:15:08.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:15:08.693+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:15:08.688+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:15:08.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:15:08.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.556 seconds
+[2024-12-02T08:15:39.182+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:15:39.186+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:15:39.198+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:15:39.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:15:41.974+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:15:41.969+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:15:41.977+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:15:42.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 2.871 seconds
+[2024-12-02T08:16:12.825+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:16:12.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:16:12.829+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:16:12.829+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:16:13.316+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:16:13.312+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:16:13.317+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:16:13.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.514 seconds
+[2024-12-02T08:16:44.058+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:16:44.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:16:44.060+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:16:44.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:16:44.444+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:16:44.440+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:16:44.446+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:16:44.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.406 seconds
+[2024-12-02T08:17:15.284+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:17:15.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:17:15.287+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:17:15.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:17:15.661+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:17:15.658+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:17:15.663+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:17:15.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.395 seconds
+[2024-12-02T08:17:46.030+0000] {processor.py:161} INFO - Started process (PID=292) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:17:46.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:17:46.033+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:17:46.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:17:46.476+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:17:46.473+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:17:46.478+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:17:46.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.474 seconds
+[2024-12-02T08:18:16.611+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:18:16.612+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:18:16.614+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:18:16.614+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:18:17.021+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:18:17.017+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:18:17.022+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:18:17.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.427 seconds
+[2024-12-02T08:18:47.899+0000] {processor.py:161} INFO - Started process (PID=324) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:18:47.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:18:47.902+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:18:47.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:18:48.317+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:18:48.314+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:18:48.318+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:18:48.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.438 seconds
+[2024-12-02T08:19:18.665+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:19:18.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:19:18.670+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:19:18.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:19:19.162+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:19:19.158+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:19:19.163+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:19:19.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.523 seconds
+[2024-12-02T08:19:49.379+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:19:49.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:19:49.383+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:19:49.383+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:19:49.761+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:19:49.756+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:19:49.762+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:19:49.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.400 seconds
+[2024-12-02T08:20:20.008+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:20:20.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:20:20.011+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:20:20.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:20:20.456+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:20:20.452+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:20:20.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:20:20.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.471 seconds
+[2024-12-02T08:20:50.911+0000] {processor.py:161} INFO - Started process (PID=386) to work on /opt/airflow/dags/data_processing.py
+[2024-12-02T08:20:50.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_processing.py for tasks to queue
+[2024-12-02T08:20:50.915+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:20:50.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:20:51.390+0000] {logging_mixin.py:188} INFO - [2024-12-02T08:20:51.385+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/data_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+  File "/opt/airflow/dags/data_processing.py", line 5, in <module>
+    from data_processing import generate_tables
+ImportError: cannot import name 'generate_tables' from partially initialized module 'data_processing' (most likely due to a circular import) (/opt/airflow/dags/data_processing.py)
+[2024-12-02T08:20:51.391+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/data_processing.py
+[2024-12-02T08:20:51.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_processing.py took 0.507 seconds

@@ -1,0 +1,75 @@
+name: CI Pipeline with SonarQube
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint-test-sonarqube:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout do código-fonte
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Configuração do ambiente Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    # Instalação das dependências
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest flake8 black
+
+    # Linting com Flake8
+    - name: Lint with flake8
+      run: flake8 src/ tests/
+
+    # Verificação de formatação com Black
+    - name: Check formatting with Black
+      run: black --check src/ tests/
+
+    # Executar testes com Pytest
+    - name: Run tests with pytest
+      run: pytest tests/
+
+    # Configurar SonarQube Scanner
+    - name: Install SonarQube Scanner
+      run: |
+        curl -sSLo sonar-scanner-cli.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-5.0.1.3006-linux.zip
+        unzip sonar-scanner-cli.zip -d $HOME
+        echo "export PATH=$HOME/sonar-scanner-5.0.1.3006-linux/bin:\$PATH" >> $GITHUB_ENV
+
+    # Executar análise do SonarQube
+    - name: Run SonarQube analysis
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      run: |
+        sonar-scanner \
+          -Dsonar.projectKey=meu-projeto-key \
+          -Dsonar.sources=src \
+          -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
+          -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+
+    # Validar o Quality Gate do SonarQube
+    - name: Quality Gate
+      id: sonarqube_quality_gate
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      run: |
+        STATUS=$(curl -s -u ${{ secrets.SONAR_TOKEN }}: \
+        "${{ secrets.SONAR_HOST_URL }}/api/qualitygates/project_status?projectKey=meu-projeto-key" | jq -r '.projectStatus.status')
+        if [ "$STATUS" != "OK" ]; then
+          echo "Quality Gate failed: $STATUS"
+          exit 1
+        fi
+      shell: bash
